@@ -1,0 +1,59 @@
+nav {
+  background-color: #fff9dc;
+  padding: 10px;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavTitle {
+  font-size: 25px;
+  margin-right: 10px;
+  font-family:'Lucida Console';
+  color: #535353;
+}
+
+.NavBarButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.NavBarButton button {
+  margin-right: 100px;
+  padding: 8px 16px;
+  color: #535353;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 15px;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+.searchIcon{
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.searchIcon:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.cartIcon{
+  max-width: 100%;
+  width: 35px;
+  height: 35px;
+}
+
+.cartIcon:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
